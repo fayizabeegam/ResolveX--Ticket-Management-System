@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global tweaks */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Placeholder color */
+input::placeholder {
+  color: #9ca3af;
+}
+
+/* add in global css */
+.btn {
+  @apply bg-gray-100 hover:bg-blue-600 hover:text-white text-sm px-4 py-2 rounded-md transition;
+}
+
+.card {
+  @apply bg-white p-5 rounded-xl shadow;
+}
+
+.title {
+  @apply flex items-center gap-2 font-semibold text-lg;
+}
+
+.item {
+  @apply flex justify-between items-center border p-3 rounded-md mt-2;
+}
+
+.menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  z-index: 100;
+  top: 40px;
+  right: 0;
+}
+
+.menu button {
+  display: block;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.menu button:hover {
+  background: #f3f4f6;
+}
+
+.input {
+  @apply w-full border rounded p-2 bg-gray-50;
+}
+
+.btn {
+  @apply bg-gray-100 hover:bg-blue-600 hover:text-white px-3 py-2 rounded;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-3 py-2 rounded;
+}
+
+.badge {
+  @apply px-3 py-1 text-white rounded text-sm capitalize;
+}
