@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ResolveX - Ticket Management System
 
 Full-stack web application for managing support tickets with **role-based access** and **real-time notifications**.
@@ -37,21 +38,6 @@ RESOLVEX/
 
 ## ⚙️ Installation
 
-### 1. Clone repository
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-
-cd resolveX_backend
-python -m venv venv
-
-# Activate virtual environment
-# Windows
-venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
 
 
